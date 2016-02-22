@@ -1,0 +1,583 @@
+<!DOCTYPE HTML>
+<html ng-app="PHPKonfApp">
+<head>
+    <meta charset=utf-8>
+    <meta name=description content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>{{ 'TITLE' | translate }}</title>
+
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <meta name="description" content="PHPKonf: 21/22 Mayıs 2016'de Bahçeşehir Üniversitesi'nde düzenlenecek PHP Konferansı hakkında bilgilere ulaşabileceğiniz web sitesi.">
+    <meta name="keywords" content="PHP Konferansı, PHP, PHPKonf">
+    <meta name="author" content="IstanbulPHP"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="PHPKonf: Istanbul PHP Konferansı 2016" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://phpkonf.org/" />
+    <meta property="og:image" content="http://phpkonf.org/img/covers/phpkonf2014.jpg" />
+    <meta property="og:description" content="PHPKonf: 25/26 Mayıs 2016'a Bahçeşehir Üniversitesi'nde düzenlenecek PHP Konferansı hakkında bilgilere ulaşabileceğiniz web sitesi." />
+    <link rel=stylesheet href="libs/zozo-tabs/css/zozo.examples.min.css">
+    <link rel=stylesheet href="libs/zozo-tabs/css/zozo.tabs.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
+    <link rel=stylesheet href="css/main.min.css">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body ng-controller="MainController">
+
+    <!-- <header id="sticky-header" class="header"> -->
+    <header id="sticky-header" class="header">
+        <div class="container">
+            <a class="logo logo--sticky header__logo" href="#">PHPKonf</a>
+            <a class="button button--primary header__language" ng-click="changeLanguage('tr')">TR</a>
+            <a class="button button--primary header__language" ng-click="changeLanguage('en')">EN</a>
+            <a class="button button--primary header__btn" href="http://phpkonf2016.eventbrite.com/" target="_blank">{{ 'REGISTER' | translate }}</a>
+            <nav id="sticky-header-menu" class="menu header__menu">
+                <a class="menu__item" data-target-id="main" href="#">{{ 'HOME' | translate }}</a>
+                <a class="menu__item" data-target-id="about" href="#">{{ 'ABOUT' | translate }}</a>
+                <a class="menu__item" data-target-id="speakers" href="#">{{ 'SPEAKERS' | translate }}</a>
+                <a class="menu__item" data-target-id="program" href="#">{{ 'PROGRAM' | translate }}</a>
+                <a class="menu__item" data-target-id="tickets" href="#">{{ 'TICKETS' | translate }}</a>
+            </nav>
+        </div>
+    </header>
+    <div id="main" class="jumbotron jumbotron--main">
+        <div class="container jumbotron__container">
+            <section class="jumbotron__inner">
+                <a class="logo logo--header" href="#">PHPKonf</a>
+                <h1 class="jumbotron__title jumbotron--main__title">{{ 'LOCATION_DATE' | translate }}</h1>
+                <span class="inline-block" translate="{{ 'MAIN_DESCRIPTION' }}"></span><br>
+                <span class="inline-block" style="margin-top: 10px;">{{ 'SHARE_TO_WORLD' | translate }} <a href="https://twitter.com/intent/tweet?button_hashtag=phpkonf&text=PHPKonf%3A%20Istanbul%20PHP%20conference%202016%20hosted%20by%20Istanbul%20PHP%20community!%20%23php%20@istanbulphp" class="twitter-hashtag-button" data-related="EmirKarsiyakali,IstanbulPHP,yuxel" data-url="http://phpkonf.org/">Tweet #phpkonf</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></span><br>
+                <a class="button button--primary jumbotron--main__btn" href="https://istanbulphp-phpkonf2016.eventbrite.com/" target="_blank">{{ 'REGISTER' | translate }}</a>
+            	<a class="button button--primary jumbotron--main__btn" target="_blank" href="https://docs.google.com/forms/d/1mLXbmAK-yciwNjrEAJz5OZaUWZmrWntQdcqv7ky2N7U/viewform">CALL FOR PAPERS</a>
+            </section>
+        </div>
+    </div>
+    <div id="about" class="pad-vertical-large bg-snow">
+        <div class="container">
+            <div class="row">
+                <section class="col-md-6 gap-bottom-tablet-v">
+                    <h3 class="gap-bottom-medium clear-gap-top">{{ 'ABOUT_PHPKONF_TITLE' | translate }}</h3>
+                    <p class="gap-bottom-medium" translate="{{ 'ABOUT_PHPKONF_DESC' }}"></p>
+                    <a class="button button--primary" target="_blank" href="https://twitter.com/IstanbulPHP">{{ 'ISTANBULPHP_ON_TWITTER' | translate }}</a><br/><br/>
+                    <a class="button button--primary" target="_blank" href="http://www.meetup.com/IstanbulPHP">{{ 'ISTANBULPHP_ON_MEETUP' | translate }}</a>
+                </section>
+                <div class="col-md-6">
+                    <div class="row gap-bottom">
+                        <div class="col-sm-4 gap-bottom-mobile-h">
+                            <figure class="thumb thumb--primary">
+                                <img data-src="img/2014/1.jpg" alt="" class="thumb__img">
+                            </figure>
+                        </div>
+                        <div class="col-sm-8">
+                            <figure class="thumb thumb--primary">
+                                <img data-src="img/2014/2.jpg" alt="" class="thumb__img">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 gap-bottom-mobile-h">
+                            <figure class="thumb thumb--primary">
+                                <img data-src="img/2014/3.jpg" alt="" class="thumb__img">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6">
+                            <figure class="thumb thumb--primary">
+                                <img data-src="img/2014/4.jpg" alt="" class="thumb__img">
+                            </figure>
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px;"><a target="_blank" href="https://www.facebook.com/media/set/?set=a.1680108142218694.1073741829.1440529842843193&type=3">More photos!</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="speakers" class="container text-center pad-vertical-large">
+        <h3 class="clear-gap-top">{{ 'SPEAKERS' | translate }}</h3>
+        <hr class="hyphen">
+        <div class="honeycomb-wrapper">
+
+            <div class="col-sm-3" ng-repeat="(id, speaker) in speakers">
+                <div class="speaker">
+                    <div class="photo-wrapper rounded">
+                        <a href="javascript:void(0)" ng-click="clickToOpen(id)">
+                            <img width="200px" height="200px" src="img/speakers/{{ speaker.photo }}" alt="{{ speaker.name + " " + speaker.surname }}" class="img-responsive">
+                        </a>
+                    </div>
+                    <div style="clear: both;"></div>
+                    <a href="javascript:void(0)" ng-click="clickToOpen(id)">{{ speaker.name + " " + speaker.surname }}</a>
+                    <p class="about" style="height: 50px!important">{{ speaker.bio }}</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="program" class="pad-vertical-medium bg-snow">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="tabbed-nav">
+
+                        <!-- Tab Navigation Menu -->
+                        <ul>
+                            <li><a>{{ 'DAY_1' | translate }} </a></li>
+                            <li><a>{{ 'DAY_2' | translate }}</a></li>
+
+
+                        </ul>
+
+                        <!-- Content container -->
+                        <div>
+
+                            <!-- DAY1 -->
+                            <div>
+                                <p class="gap-bottom-medium">{{ 'DAY_1_DESC' | translate }}
+                                </p>
+                                <a class="gap-bottom-medium button button--primary"
+                                   href="http://istanbulphp-phpkonf2016.eventbrite.com/" target="_blank">{{
+                                    'REGISTER' | translate }}</a>
+
+                                <table>
+                                    <thead>
+                                    <tr>
+                                        <th>{{ 'DATE' | translate }}</th>
+                                        <th><h4>BKONF</h4></th>
+                                        <th><h4>Fazıl Say Hall</h4></th>
+
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>09:00</td>
+                                        <td colspan="2" class="text-center">
+                                            <h6>Keynote</h6><span></span>
+
+                                            <p class="text-left">
+
+                                            </p>
+                                        </td>
+
+
+                                    </tr>
+                                    <tr>
+                                        <td>10:00</td>
+                                        <td>
+                                            <h6></h6><span></span>
+
+                                            <p>
+
+                                            </p>
+                                        </td>
+                                        <td>&nbsp;</td>
+
+
+                                    </tr>
+                                    <tr>
+                                        <td>11:00</td>
+                                        <td>
+                                            <h6></h6><span></span>
+                                        </td>
+                                        <td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:00</td>
+                                        <td colspan="2" class="text-center lunch"><h6>Lunch</h6></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>13:00</td>
+                                        <td>
+
+                                            <h6></h6>
+                                            <span></span>
+
+                                            <p>
+                                            </p>
+
+
+                                        </td>
+                                        <td>
+
+                                            <h6></h6><span></span>
+
+                                            <p>
+                                            </p>
+
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>14:00</td>
+                                        <td>
+                                            <h6></h6><span></span>
+
+                                            <p></p>
+
+                                        </td>
+                                        <td>
+                                            <h6></h6>
+                                            <span></span>
+
+                                            <p></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:00</td>
+                                        <td>
+                                            <h6></h6><span></span>
+
+                                            <p></p>
+
+                                        </td>
+                                        <td>
+                                            <h6></h6>
+                                            <span></span>
+
+                                            <p></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>16:00</td>
+                                        <td>
+                                            <h6></h6><span></span>
+
+                                            <p></p>
+
+                                        </td>
+                                        <td>
+                                            <h6></h6>
+                                            <span></span>
+
+                                            <p></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>17:00</td>
+                                        <td>
+                                            <h6></h6><span></span>
+
+                                            <p></p>
+
+                                        </td>
+                                        <td>
+                                            <h6></h6>
+                                            <span></span>
+
+                                            <p></p>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+                            <!-- DAY2 -->
+                            <div>
+                                <p class="gap-bottom-medium">{{ 'DAY_2_DESC' | translate }}
+                                </p>
+                                <a class="gap-bottom-medium button button--primary"
+                                   href="http://istanbulphp-phpkonf2016.eventbrite.com/" target="_blank">{{
+                                    'REGISTER' | translate }}</a>
+
+                                <table>
+                                    <thead>
+                                    <tr>
+                                        <th>{{ 'DATE_2' | translate }}</th>
+                                        <th><h4>BKONF</h4></th>
+                                        <th><h4>Fazıl Say Hall</h4></th>
+
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>09:00</td>
+                                        <td colspan="2" class="text-center">
+                                            <h6></h6><span></span>
+
+                                            <p class="text-left"></p>
+                                        </td>
+
+
+                                    </tr>
+                                    <tr>
+                                        <td>10:00</td>
+                                        <td>
+                                            <h6></h6><span></span>
+
+                                            <p></p>
+                                        </td>
+                                        <td>&nbsp;</td>
+
+
+                                    </tr>
+                                    <tr>
+                                        <td>11:00</td>
+                                        <td>
+                                            <h6></h6><span></span>
+
+                                            <p></p>
+
+                                        </td>
+                                        <td><h6></h6><span></span>
+
+                                            <p></p>
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>12:00</td>
+                                        <td colspan="2" class="text-center lunch"><h6>Lunch</h6></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>13:00</td>
+                                        <td>
+
+                                            <h6></h6>
+                                            <span></span>
+
+                                            <p></p>
+
+
+                                        </td>
+                                        <td>
+
+                                            <h6></h6><span></span>
+                                            <p></p>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>14:00</td>
+                                        <td>
+                                            <h6></h6><span></span>
+
+                                            <p></p>
+
+                                        </td>
+                                        <td>
+                                            <h6></h6>
+                                            <span></span>
+
+                                            <p></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:00</td>
+                                        <td>
+                                            <h6>
+                                            </h6><span></span>
+
+                                            <p></p>
+
+                                        </td>
+                                        <td>
+                                            <h6>
+                                            </h6>
+                                            <span></span>
+
+                                            <p></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>16:00</td>
+                                        <td>
+                                            <h6>
+                                            </h6><span></span>
+
+                                            <p></p>
+
+                                        </td>
+                                        <td>
+                                            <h6>
+                                            </h6><span></span>
+
+                                            <p>
+                                            </p>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>17:00</td>
+                                        <td>
+                                            <h6>
+                                            </h6><span></span>
+
+                                            <p></p>
+
+                                        </td>
+                                        <td>
+                                            <h6></h6>
+                                            <span></span>
+
+                                            <p></p>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="tickets" class="container text-center pad-vertical-large">
+        <h3>{{ 'TICKETS' | translate }}</h3>
+        <hr class="hyphen">
+        <p>{{ 'TICKETS_DESC' | translate }}</p>
+        <div class="row pad-top">
+            <div class="col-md-6 gap-bottom-tablet-v">
+                <!-- Register Box -->
+                <div class="register-box" style="min-height: 276px!important;">
+                    <div class="register-box__col register-box__col--left">
+                        <div class="register-box__price">
+                            <sup>$</sup>25
+                        </div>
+                        <a class="button button--primary" href="http://istanbulphp-phpkonf2016.eventbrite.com/" target="_blank">{{ 'REGISTER' | translate }}</a>
+                    </div>
+                    <div class="register-box__col register-box__col--right">
+                        <div class="register-box__title">Earyl Bird</div>
+                        <hr class="hyphen">
+                        <p class="register-box__desc">{{ 'TICKET_1_DESC' | translate }}</p>
+                    </div>
+                </div>
+                <!-- Register Box -->
+            </div>
+            <div class="col-md-6">
+                <!-- Register Box -->
+                <div class="register-box">
+                    <div class="register-box__col register-box__col--left">
+                        <div class="register-box__price">
+                            <sup>$</sup>100
+                        </div>
+                        <a class="button button--primary" href="http://istanbulphp-phpkonf2016.eventbrite.com/" target="_blank">{{ 'REGISTER' | translate }}</a>
+                    </div>
+                    <div class="register-box__col register-box__col--right">
+                        <div class="register-box__title">EXTENDED EXCLUSIVE</div>
+                        <hr class="hyphen">
+                        <p class="register-box__desc">{{ 'TICKET_2_DESC' | translate }}</p>
+                    </div>
+                </div>
+                <!-- Register Box -->
+            </div>
+        </div>
+    </section>
+    <div class="jumbotron jumbotron--map">
+        <div class="container jumbotron__container">
+            <section class="jumbotron__inner">
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-7">
+                        <h3 class="jumbotron__title clear-gap-vertical">{{ 'BAU' | translate }}</h3>
+                        <p>{{ 'BAU_DESC' | translate }}</p>
+                        <a target="_blank" class="button button--primary" href="https://www.google.com/maps/place/Bahçeşehir+Üniversitesi/@41.041994,29.009049,17z">{{ 'MAP' | translate }}</a>
+                        <a target="_blank" class="button button--primary" href="http://www.bahcesehir.edu.tr/galeri/22-bauda-kampuste-yasam">{{ 'PHOTOS' | translate }}</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="pad-vertical-large bg-snow">
+        <div class="container text-center">
+            <h3>{{ 'SPONSORS' | translate }}</h3>
+            <hr class="hyphen">
+            <p class="gap-bottom-large" translate="{{ 'SPONSORS_DESC' }}"></p>
+            <h6 class="gap-top-large-mobile-h">{{ 'ORGANIZATION' | translate }} / Partner</h6>
+            <a target="_blank" href="http://www.meetup.com/IstanbulPHP/"><img width="200px" height="200px" class="gap-bottom" data-src="img/sponsors/istanbulphp-logo.png" alt="İstanbul PHP UG"></a>
+            <h6 class="gap-top-large-mobile-h">{{ 'HONOR' | translate }}</h6>
+            <a target="_blank" href="http://bahcesehir.edu.tr/"><img class="gap-bottom" width="200px" data-src="img/sponsors/bau.png" alt="Bahçeşehir University"></a>
+            <h6 class="gap-top-large-mobile-h">{{ 'GOLD_SPONSORS' | translate }}</h6>
+            <h6 class="gap-top-large-mobile-h">{{ 'SILVER_SPONSORS' | translate }}</h6>
+            <a target="_blank" href="http://sonsuzdongu.com/"><img class="gap-bottom" data-src="img/sponsors/sonsuzdongu.png" alt="Sonsuzdöngü"></a>
+            <a target="_blank" href="http://www.atolye15.com/"><img style="margin-left: 30px!important;" class="gap-bottom" data-src="img/sponsors/atolye15.png" alt="Atölye15"></a>
+            <h6 class="gap-top-large-mobile-h">{{ 'BRONZE_SPONSORS' | translate }}</h6>
+            <h6 class="gap-top-large-mobile-h">{{ 'MEDIA_SPONSORS' | translate }}</h6>
+            <a target="_blank" href="http://webrazzi.com/"><img class="gap-bottom" data-src="img/sponsors/webrazzi.png" alt="Webrazzi"></a>
+        </div>
+    </div>
+    <div class="pad-vertical-large container">
+        <h3>{{ 'CODE_OF_CONDUCT' | translate }}</h3>
+        <p translate="{{ 'CODE_OF_CONDUCT_1' }}"></p>
+        <div class="row pad-top-small">
+            <div class="col-md-6">
+                <ul class="questions">
+                    <li class="questions__item">
+                        <span class="questions__item__no">N<sup>o</sup>1</span>
+                        <h6 class="questions__item__title">{{ 'NO_1_TITLE' | translate }}</h6>
+                        <p translate="{{ 'NO_1_DESC' }}"></p>
+                    </li>
+                    <li class="questions__item">
+                        <span class="questions__item__no">N<sup>o</sup>2</span>
+                        <h6 class="questions__item__title">{{ 'NO_2_TITLE' | translate }}</h6>
+                        <p translate="{{ 'NO_2_DESC' }}"></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="questions">
+                    <li class="questions__item">
+                        <span class="questions__item__no">N<sup>o</sup>3</span>
+                        <h6 class="questions__item__title">{{ 'NO_3_TITLE' | translate }}</h6>
+                        <p translate="{{ 'NO_3_DESC' }}"></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <a class="logo logo--footer" href="http://atolye15.com" target="_blank" title="Atölye15"></a>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.6.1/angular-translate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate-loader-static-files/2.6.1/angular-translate-loader-static-files.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.4.0/js/ngDialog.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-sanitize.min.js"></script>
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/zozo-tabs/zozo.tabs.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/vendors.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.0.5/jquery.lazyloadxt.min.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-63786228-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <!-- Facebook Conversion Code for Web Sayfası Görüntülemesi - PHPKonf -->
+    <script>(function() {
+    var _fbq = window._fbq || (window._fbq = []);
+    if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+    }
+    })();
+    window._fbq = window._fbq || [];
+    window._fbq.push(['track', '6027587433541', {'value':'0.00','currency':'TRY'}]);
+    </script>
+    <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6027587433541&amp;cd[value]=0.00&amp;cd[currency]=TRY&amp;noscript=1" /></noscript>
+</body>
+</html>

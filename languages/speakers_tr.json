@@ -1,0 +1,374 @@
+{
+    "speakers": {
+        "fabpot": {
+            "name": "Fabien",
+            "surname": "Potencier",
+            "bio": "Founder and CEO Blackfire.io, Co-founder SensioLabs, Founder Symfony",
+            "about": "https://connect.sensiolabs.com/profile/fabpot",
+            "photo": "fabien-potencier.jpg",
+            "keynote": 1,
+            "language": "en",
+            "social": {
+                "github": "fabpot",
+                "twitter": "fabpot",
+                "linkedin": "fabienpotencier",
+                "blog": "http://fabien.potencier.org/"
+            }
+        },
+        "ocramius": {
+            "name": "Marco",
+            "surname": "Pivetta",
+            "bio": "Software consultant at Roave. He is part of the Zend Framework team, Doctrine core team",
+            "about": "http://ocramius.github.io/about/",
+            "photo": "marco-pivetta.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "ocramius",
+                "twitter": "ocramius",
+                "linkedin": "ocramius",
+                "blog": "https://ocramius.github.io/"
+            }
+        },
+        "philsturgeon": {
+            "name": "Phil",
+            "surname": "Sturgeon",
+            "bio": "Author of \"Build APIs You Wont Hate\" and engineer at Ride",
+            "about": "Phil has contributed to CodeIgniter, FuelPHP, Laravel and handfuls of other projects, to try and make the PHP community a better place. These days he tries to avoid frameworks, but contributes to standards and promotes modern best practices.",
+            "photo": "phil-sturgeon.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "philsturgeon",
+                "twitter": "philsturgeon",
+                "linkedin": "philipsturgeon",
+                "blog": "https://philsturgeon.uk/"
+            }
+        },
+        "akinmoroglu": {
+            "name": "Akın",
+            "surname": "Moroğlu",
+            "bio": "Digital Marketing Manager at Bahcesehir University",
+            "about": "",
+            "photo": "akin-moroglu.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "twitter": "akinmoroglu",
+                "linkedin": "akinmoroglu"
+            }
+        },
+        "alpcan": {
+            "name": "Alpcan",
+            "surname": "Aydın",
+            "bio": "Digital Marketing Manager at Bahcesehir University",
+            "about": "",
+            "photo": "alpcan-aydin.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "twitter": "akinmoroglu",
+                "linkedin": "akinmoroglu"
+            }
+        },
+        "ardadev": {
+            "name": "Arda",
+            "surname": "Kılıçdağı",
+            "bio": "Development Team Leader at NOD",
+            "about": "",
+            "photo": "arda-kilicdagi.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "ardakilic",
+                "twitter": "ardadev",
+                "linkedin": "ardakilicdagi",
+                "blog": "http://arda.pw/"
+            }
+        },
+        "birgeelif": {
+            "name": "Birge Elif",
+            "surname": "Basık",
+            "bio": "COO and Agile Coach of VNGRS, Mother of 35 Developers",
+            "about": "I'm the Agile Coach of VNGRS, coaching for 4 different development teams. I'm responsible to coaching both team and training Product Owner, removing any kind of impediments throughout development process and increase the productivity of the team. I'm process facilitator, being sure that the team apply agile rules. I'm mentoring Istanbul Team, Agile Sparrow Project of Scrum Turkey.",
+            "photo": "birge-elif-basik.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "twitter": "birgeelif",
+                "linkedin": "birgeelif"
+            }
+        },
+        "ceydaanil": {
+            "name": "Ceyda",
+            "surname": "Anıl",
+            "bio": "Co-founder at Enerjik Agency",
+            "about": "http://www.ceydaanil.com/hakkimda",
+            "photo": "ceyda-anil.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "twitter": "ceydaanil",
+                "linkedin": "ceydaanil"
+            }
+        },
+        "didemacet": {
+            "name": "Didem",
+            "surname": "Acet",
+            "bio": "QA Developer at Koding.com",
+            "about": "",
+            "photo": "didem-acet.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "didemacet",
+                "twitter": "didemacet",
+                "linkedin": "didemacet"
+            }
+        },
+        "emirkarsiyakali": {
+            "name": "Emir",
+            "surname": "Karşıyakalı",
+            "bio": "Software Consultant",
+            "about": "Emir Karşıyakalı is Web developer with a passion for open-source, community & PHP. He is Zend Certified PHP Engineer and over 10 years of experience in web application development. Currently working as an independent consultant. User group leader of Istanbul PHP. Organizer of PHPKonf 2014, 2015, Jstanbul 2012, JSIST 2014, Mobilist 2013, PHP-ist 2013, HackING Hackathon 2014 and much more.",
+            "photo": "emir-karsiyakali.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "emir",
+                "twitter": "emirkarsiyakali",
+                "linkedin": "emirkarsiyakali"
+            }
+        },
+        "emirkarsiyakali": {
+            "name": "Emir",
+            "surname": "Karşıyakalı",
+            "bio": "Software Consultant",
+            "about": "Emir Karşıyakalı is Web developer with a passion for open-source, community & PHP. He is Zend Certified PHP Engineer and over 10 years of experience in web application development. Currently working as an independent consultant. User group leader of Istanbul PHP. Organizer of PHPKonf 2014, 2015, Jstanbul 2012, JSIST 2014, Mobilist 2013, PHP-ist 2013, HackING Hackathon 2014 and much more.",
+            "photo": "emir-karsiyakali.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "emir",
+                "twitter": "emirkarsiyakali",
+                "linkedin": "emirkarsiyakali"
+            }
+        },
+        "fatihacet": {
+            "name": "Fatih",
+            "surname": "Acet",
+            "bio": "Front End Developer at Koding.com",
+            "about": "",
+            "photo": "fatih-acet.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "fatihacet",
+                "twitter": "fatihacet",
+                "linkedin": "fatihacet",
+                "blog": "http://fatihacet.com/"
+            }
+        },
+        "fkadev": {
+            "name": "Fatih Kadir",
+            "surname": "Akın",
+            "bio": "Front End Developer at Protel",
+            "about": "Fatih Kadir Akın is a JavaScript Developer. He wrote JavaScript for years, before it was cool. Writing books, organizing events about front-end and JavaScript. Organized the first JavaScript Conference in Turkey: Jstanbul. He is a passioned open-source and community supporter. The \"f\" in GitHub.",
+            "photo": "fatih-kadir-akin.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "f",
+                "twitter": "fkadev",
+                "linkedin": "fatihkadirakin",
+                "blog": "http://fka.calepin.co/"
+            }
+        },
+        "gamze": {
+            "name": "Gamze",
+            "surname": "Ekinci",
+            "bio": "Software Quality Analyst at Hepsiburada.com, TestHive group co-organizer",
+            "about": "",
+            "photo": "gamze-ekinci.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "linkedin": "gamze-ekinci-66914367"
+            }
+        },
+        "shibby": {
+            "name": "Güven",
+            "surname": "Atbakan",
+            "bio": "Sr. Software Developer at Düğün.com",
+            "about": "",
+            "photo": "guven-atbakan.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "shibby",
+                "twitter": "GAtbakan",
+                "linkedin": "guvenatbakan"
+            }
+        },
+        "harunyardimci": {
+            "name": "Harun",
+            "surname": "Yardımcı",
+            "bio": "Software Development & DevOps Manager at GittiGidiyor / eBay Turkey",
+            "about": "https://about.me/harun.yardimci",
+            "photo": "harun-yardimci.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "harunyardimci",
+                "twitter": "h_yardimci",
+                "linkedin": "harunyardimci"
+            }
+        },
+        "hdogan": {
+            "name": "Hidayet",
+            "surname": "Doğan",
+            "bio": "Co-founder at Yazılım Parkı",
+            "about": "http://hi.do/cv.html",
+            "photo": "hidayet-dogan.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "hdogan",
+                "twitter": "hdogan",
+                "linkedin": "hdogan"
+            }
+        },
+        "hidonet": {
+            "name": "Hidayet",
+            "surname": "Ok",
+            "bio": "Software Consultant",
+            "about": "",
+            "photo": "hidayet-ok.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "hidonet",
+                "twitter": "hidonet",
+                "linkedin": "hidayetok"
+            }
+        },
+        "irfandurmus": {
+            "name": "İrfan",
+            "surname": "Durmuş",
+            "bio": "Software Consultant",
+            "about": "",
+            "photo": "irfan-durmus.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "irfan",
+                "twitter": "irfandurmus",
+                "linkedin": "irfandurmus",
+                "blog": "http://irfandurmus.com/"
+            }
+        },
+        "mehmetince": {
+            "name": "Mehmet",
+            "surname": "İnce",
+            "bio": "Senior Penetration Tester at Invictus Europe",
+            "about": "",
+            "photo": "mehmet-ince.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "mmetince",
+                "twitter": "mdisec",
+                "linkedin": "mehmetdursunince",
+                "blog": "http://www.mehmetince.net/"
+            }
+        },
+        "mehmetince": {
+            "name": "Mehmet",
+            "surname": "İnce",
+            "bio": "Senior Penetration Tester at Invictus Europe",
+            "about": "",
+            "photo": "mehmet-ince.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "mmetince",
+                "twitter": "mdisec",
+                "linkedin": "mehmetdursunince",
+                "blog": "http://www.mehmetince.net/"
+            }
+        },
+        "muhittin": {
+            "name": "Muhittin",
+            "surname": "Özer",
+            "bio": "Software Developer at Atölye15",
+            "about": "He has been developing countless of projects with PHP for over 12 years. For last 5 years, he's proud of being one of the rare PHP developers in Izmir, Turkey. Above all, he's most proud of being the father of Zeynep.",
+            "photo": "muhittin-ozer.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "muhittin",
+                "twitter": "muhittin",
+                "linkedin": "muhittin",
+                "blog": "http://www.muhittinozer.com/"
+            }
+        },
+        "nazlim": {
+            "name": "Nazlım",
+            "surname": "Bölük",
+            "bio": "Software Developer at KLE",
+            "about": "",
+            "photo": "nazlim-boluk.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "nazlim",
+                "twitter": "nazlimboluk",
+                "linkedin": "nazlimboluk",
+                "blog": "http://nazlimboluk.com/"
+            }
+        },
+        "onur": {
+            "name": "Onur",
+            "surname": "Yılmaz",
+            "bio": "Senior Security Researcher at Netsparker",
+            "about": "",
+            "photo": "onur-yilmaz.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "onuryilmazinfo",
+                "twitter": "onuryilmazinfo",
+                "linkedin": "onuryilmazinfo"
+            }
+        },
+        "osman": {
+            "name": "Osman",
+            "surname": "Üngür",
+            "bio": "Founder Osman Üngür Software",
+            "about": "Osman 10 yıldan fazladır sistem yöneticiliği deneyimi olan bir yazılım geliştiricidir. Daha çok Java ve PHP yazar. Bunun yanında altyapı tasarımı, sistem otomasyonu, deployment ve sistem izleme görevlerinde de yer almaktadır. Temiz, düzgün kurgulanmış, sürdürülebilir, ölçeklendirilebilir mimarilere önem vermektedir.",
+            "photo": "osman-ungur.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "o",
+                "twitter": "oungur",
+                "linkedin": "osmanun"
+            }
+        },
+        "vigo": {
+            "name": "Uğur",
+            "surname": "Özyılmazel",
+            "bio": "Head of Web Applications Development Dep. at Istanbul Bilgi University",
+            "about": "“vigo” is an old-skool software developer who still loves and operates Commodore 64 and Amiga computers. Also he loves Ruby, GIT, Python and UNIX stuff very much!",
+            "photo": "ugur-ozyilmazel.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "vigo",
+                "twitter": "vigobronx",
+                "linkedin": "ugurozyilmazel",
+                "blog": "http://ugur.ozyilmazel.com/"
+            }
+        }
+    }
+}

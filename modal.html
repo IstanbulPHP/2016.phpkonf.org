@@ -1,0 +1,24 @@
+<div class="" id="speakers-1">
+    <div class="md-content">
+        <div class="speakers-modal-cont">
+            <div class="img-cont">
+                <figure>
+                    <img ng-src="img/speakers/{{ speaker.photo }}" class="img-responsive" alt="slide"/>
+                </figure>
+            </div>
+            <div class="speakers-about-cont">
+                <h3>{{ speaker.name + " " + speaker.surname }}</h3>
+                <h4>{{ speaker.bio }}</h4>
+                <div style="width: 600px;" ng-bind-html="speaker.about | html"></div>
+                <ul class="speaker-socials list-inline list-unstyled" style="margin-top: 15px;">
+                    <li ng-repeat="(key, social) in speaker.social">
+                        <a target="_blank" href="https://{{ key }}.com/{{ social }}"><span class="fa fa-{{ key }}"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="md-overlay"></div>
+<!--Modal box overlay-->
