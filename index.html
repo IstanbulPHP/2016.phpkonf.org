@@ -104,10 +104,10 @@
         <hr class="hyphen">
         <div class="honeycomb-wrapper">
 
-            <div class="col-sm-3" ng-repeat="(id, speaker) in speakers">
+            <div class="col-sm-3" ng-repeat="(id, speaker) in speakers | toArray">
                 <div class="speaker">
                     <div class="photo-wrapper rounded">
-                        <a href="javascript:void(0)" ng-click="clickToOpen(id)">
+                        <a href="javascript:void(0)" ng-click="clickToOpen(speaker)">
                             <img width="200px" height="200px" src="img/speakers/{{ speaker.photo }}" alt="{{ speaker.name + " " + speaker.surname }}" class="img-responsive">
                         </a>
                     </div>
