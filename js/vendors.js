@@ -144,7 +144,28 @@
 	    stickyHeaderMenuItems[i].addEventListener('click', stickyHeaderClickEvent);
 	    i++;
 	  }
+	}else{
+		stickyHeaderMenuItems = document.getElementById('mobile-nav').children;
+		stickyHeaderClickEvent = function(e) {
+		  var target;
+		  e.preventDefault();
+		  target = document.getElementById(this.getAttribute('data-target-id'));
+		  if (target !== null) {
+		    scrollTo(target, 30, 1000);
+		    $('#mobile-nav').slideToggle();
+		  }
+		};
+		i = 0;
+		while (i < stickyHeaderMenuItems.length) {
+		  stickyHeaderMenuItems[i].addEventListener('click', stickyHeaderClickEvent);
+		  i++;
+		}
 	}
+
+	$('.mobile-header .navicon').click(function(){
+		$('.mobile-header nav').slideToggle();
+		return false;
+	});
 
 	//Atolye15's app.js
 
