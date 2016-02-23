@@ -1126,8 +1126,12 @@ address {
 .md-content {
     padding-top: 120px;
     text-align: center;
-    overflow-y: scroll;
-    height: 100%
+    height: 100%;
+    max-width:100%;
+}
+
+@media (max-width: 720px) {
+    .speakers-modal-cont{width:100%;padding:10px}
 }
 
 .md-content h4 {
@@ -1136,8 +1140,6 @@ address {
 }
 
 .md-content h3 {
-    width: 70%;
-    max-width: 700px;
     margin: 40px auto 10px;
     color: #414141;
     font-size: 21px;
@@ -1147,8 +1149,6 @@ address {
 
 .md-content p {
     margin: 30px auto;
-    width: 70%;
-    max-width: 700px;
     padding-right: 10px;
     padding-left: 10px
 }
@@ -2812,7 +2812,7 @@ address {
     }
 }
 
-@media (max-width: 479px) {
+@media (max-width: 480px) {
     .visible-xs {
         display: block
     }
