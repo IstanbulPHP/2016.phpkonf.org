@@ -45,6 +45,22 @@
             </nav>
         </div>
     </header>
+    <!--only mobile-->
+    <header id="mobile-header" class="mobile-header">
+        <div class="container">
+            <a class="button button--primary header__language" ng-click="changeLanguage('tr')">TR</a>
+            <a class="button button--primary header__language" ng-click="changeLanguage('en')">EN</a>
+            <a href="#nav" class="navicon"><i class="fa fa-navicon"></i></a>
+            <div class="clearfix"></div>
+            <nav id="mobile-nav" class="menu header__menu">
+                <a class="menu__item" data-target-id="main" href="#">{{ 'HOME' | translate }}</a>
+                <a class="menu__item" data-target-id="about" href="#">{{ 'ABOUT' | translate }}</a>
+                <a class="menu__item" data-target-id="speakers" href="#">{{ 'SPEAKERS' | translate }}</a>
+                <a class="menu__item" data-target-id="program" href="#">{{ 'PROGRAM' | translate }}</a>
+                <a class="menu__item" data-target-id="tickets" href="#">{{ 'TICKETS' | translate }}</a>
+            </nav>
+        </div>
+    </header>
     <div id="main" class="jumbotron jumbotron--main">
         <div class="container jumbotron__container">
             <section class="jumbotron__inner">

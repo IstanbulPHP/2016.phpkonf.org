@@ -1268,6 +1268,51 @@ address {
     background-image: url(../img/sticky-logo.jpg)
 }
 
+.mobile-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index:9;
+    padding:20px 0px;
+    background: #fff;
+}
+
+.mobile-header .header__language{
+    float:left;
+}
+
+.mobile-header .navicon{
+    float:right;
+    font-size:20px;
+    border:1px solid #eee;
+    padding: 3px 10px 2px;
+    color:#333;
+}
+
+.mobile-header nav{
+    float: none;
+    display: block;
+    margin:20px 0px 0px;
+    display:none;
+}
+
+.mobile-header nav a{
+    display:block;
+    margin: 0px !important;
+    font-size:15px;
+    text-align: center;
+    padding:10px 0px
+}
+
+.mobile-header nav a:not(:last-child){
+    border-bottom:1px solid #eee;
+}
+
+@media (min-width: 1024px) {
+    .mobile-header{display: none}
+}
+
 .hyphen {
     border-top-width: 2px;
     border-color: #ffbf1d;
