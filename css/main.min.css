@@ -3287,3 +3287,7 @@ and (max-device-width : 480px) {
     height: 50px;
   }
 }
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
