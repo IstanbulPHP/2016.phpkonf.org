@@ -45,6 +45,21 @@
                 "rss": "https://philsturgeon.uk/"
             }
         },
+        "ben": {
+            "name": "Ben",
+            "surname": "Marks",
+            "bio": "Evangelist at Magento",
+            "about": "12 year open source PHP eCommerce veteran",
+            "photo": "ben-marks.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "benmarks",
+                "twitter": "benmarks",
+                "linkedin": "ben-marks-a7242828",
+                "rss": "http://bhmarks.com/blog/"
+            }
+        },
         "akinmoroglu": {
             "name": "Akın",
             "surname": "Moroğlu",
@@ -208,20 +223,6 @@
                 "github": "shibby",
                 "twitter": "GAtbakan",
                 "linkedin": "guvenatbakan"
-            }
-        },
-        "harunyardimci": {
-            "name": "Harun",
-            "surname": "Yardımcı",
-            "bio": "Software Development & DevOps Manager at GittiGidiyor / eBay Turkey",
-            "about": "https://about.me/harun.yardimci",
-            "photo": "harun-yardimci.jpg",
-            "keynote": 0,
-            "language": "tr",
-            "social": {
-                "github": "harunyardimci",
-                "twitter": "h_yardimci",
-                "linkedin": "harunyardimci"
             }
         },
         "hdogan": {

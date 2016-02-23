@@ -12,7 +12,7 @@
                 "github": "fabpot",
                 "twitter": "fabpot",
                 "linkedin": "fabienpotencier",
-                "blog": "http://fabien.potencier.org/"
+                "rss": "http://fabien.potencier.org/"
             }
         },
         "ocramius": {
@@ -27,7 +27,7 @@
                 "github": "ocramius",
                 "twitter": "ocramius",
                 "linkedin": "ocramius",
-                "blog": "https://ocramius.github.io/"
+                "rss": "https://ocramius.github.io/"
             }
         },
         "philsturgeon": {
@@ -42,7 +42,22 @@
                 "github": "philsturgeon",
                 "twitter": "philsturgeon",
                 "linkedin": "philipsturgeon",
-                "blog": "https://philsturgeon.uk/"
+                "rss": "https://philsturgeon.uk/"
+            }
+        },
+        "ben": {
+            "name": "Ben",
+            "surname": "Marks",
+            "bio": "Evangelist at Magento",
+            "about": "12 year open source PHP eCommerce veteran",
+            "photo": "ben-marks.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "benmarks",
+                "twitter": "benmarks",
+                "linkedin": "ben-marks-a7242828",
+                "rss": "http://bhmarks.com/blog/"
             }
         },
         "akinmoroglu": {
@@ -61,7 +76,7 @@
         "alpcan": {
             "name": "Alpcan",
             "surname": "Aydın",
-            "bio": "Digital Marketing Manager at Bahcesehir University",
+            "bio": "Software Developer at Atölye15",
             "about": "",
             "photo": "alpcan-aydin.jpg",
             "keynote": 0,
@@ -83,7 +98,7 @@
                 "github": "ardakilic",
                 "twitter": "ardadev",
                 "linkedin": "ardakilicdagi",
-                "blog": "http://arda.pw/"
+                "rss": "http://arda.pw/"
             }
         },
         "birgeelif": {
@@ -166,7 +181,7 @@
                 "github": "fatihacet",
                 "twitter": "fatihacet",
                 "linkedin": "fatihacet",
-                "blog": "http://fatihacet.com/"
+                "rss": "http://fatihacet.com/"
             }
         },
         "fkadev": {
@@ -181,13 +196,13 @@
                 "github": "f",
                 "twitter": "fkadev",
                 "linkedin": "fatihkadirakin",
-                "blog": "http://fka.calepin.co/"
+                "rss": "http://fka.calepin.co/"
             }
         },
         "gamze": {
             "name": "Gamze",
             "surname": "Ekinci",
-            "bio": "Software Quality Analyst at Hepsiburada.com, TestHive group co-organizer",
+            "bio": "Software Quality Analyst at Hepsiburada.com, TestHive co-organizer",
             "about": "",
             "photo": "gamze-ekinci.jpg",
             "keynote": 0,
@@ -208,20 +223,6 @@
                 "github": "shibby",
                 "twitter": "GAtbakan",
                 "linkedin": "guvenatbakan"
-            }
-        },
-        "harunyardimci": {
-            "name": "Harun",
-            "surname": "Yardımcı",
-            "bio": "Software Development & DevOps Manager at GittiGidiyor / eBay Turkey",
-            "about": "https://about.me/harun.yardimci",
-            "photo": "harun-yardimci.jpg",
-            "keynote": 0,
-            "language": "tr",
-            "social": {
-                "github": "harunyardimci",
-                "twitter": "h_yardimci",
-                "linkedin": "harunyardimci"
             }
         },
         "hdogan": {
@@ -264,7 +265,7 @@
                 "github": "irfan",
                 "twitter": "irfandurmus",
                 "linkedin": "irfandurmus",
-                "blog": "http://irfandurmus.com/"
+                "rss": "http://irfandurmus.com/"
             }
         },
         "mehmetince": {
@@ -279,7 +280,7 @@
                 "github": "mmetince",
                 "twitter": "mdisec",
                 "linkedin": "mehmetdursunince",
-                "blog": "http://www.mehmetince.net/"
+                "rss": "http://www.mehmetince.net/"
             }
         },
         "mehmetince": {
@@ -294,7 +295,7 @@
                 "github": "mmetince",
                 "twitter": "mdisec",
                 "linkedin": "mehmetdursunince",
-                "blog": "http://www.mehmetince.net/"
+                "rss": "http://www.mehmetince.net/"
             }
         },
         "muhittin": {
@@ -309,7 +310,7 @@
                 "github": "muhittin",
                 "twitter": "muhittin",
                 "linkedin": "muhittin",
-                "blog": "http://www.muhittinozer.com/"
+                "rss": "http://www.muhittinozer.com/"
             }
         },
         "nazlim": {
@@ -324,7 +325,7 @@
                 "github": "nazlim",
                 "twitter": "nazlimboluk",
                 "linkedin": "nazlimboluk",
-                "blog": "http://nazlimboluk.com/"
+                "rss": "http://nazlimboluk.com/"
             }
         },
         "onur": {
@@ -367,7 +368,7 @@
                 "github": "vigo",
                 "twitter": "vigobronx",
                 "linkedin": "ugurozyilmazel",
-                "blog": "http://ugur.ozyilmazel.com/"
+                "rss": "http://ugur.ozyilmazel.com/"
             }
         }
     }
