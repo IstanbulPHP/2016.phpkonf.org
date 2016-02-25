@@ -60,6 +60,21 @@
                 "rss": "http://bhmarks.com/blog/"
             }
         },
+        "samdark": {
+            "name": "Alexander",
+            "surname": "Makarov",
+            "bio": "Active OpenSource contributor, Yii framework core team member and its representative in php-fig",
+            "about": "12 year open source PHP eCommerce veteran",
+            "photo": "alexander-makarov.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "samdark",
+                "twitter": "sam_dark",
+                "linkedin": "makarov",
+                "rss": "http://rmcreative.ru/"
+            }
+        },
         "akinmoroglu": {
             "name": "Akın",
             "surname": "Moroğlu",
