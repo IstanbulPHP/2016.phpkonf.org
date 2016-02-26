@@ -75,6 +75,19 @@
                 "rss": "http://rmcreative.ru/"
             }
         },
+        "bastian": {
+            "name": "Bastian",
+            "surname": "Hofmann",
+            "bio": "Senior Software Engineer at ResearchGate",
+            "about": "Bastian works as a Software Engineer at ResearchGate, the social network for researchers and scientists. There he is mainly responsible for designing the web frontend's software architecture and caring about performance, monitoring and developer productivity. Before that he created the games and application platform and the APIs of the VZ-networks. When he is not developing stuff, he frequently speaks at international conferences on software architecture, scaling web applications and open standards and protocols.",
+            "photo": "bastian-hofmann.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "bashofmann",
+                "twitter": "BastianHofmann"
+            }
+        },
         "akinmoroglu": {
             "name": "Akın",
             "surname": "Moroğlu",
