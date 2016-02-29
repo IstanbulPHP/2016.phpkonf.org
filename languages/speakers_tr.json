@@ -88,17 +88,30 @@
                 "twitter": "BastianHofmann"
             }
         },
-        "dustin": {
-            "name": "Dustin",
-            "surname": "Whittle",
-            "bio": "Developer Evangelist at AppDynamics",
-            "about": "Dustin Whittle is a Developer Evangelist at AppDynamics where he focuses on helping organizations manage application performance. Before joining AppDynamics, Dustin was CTO at Kwarter, a consultant at SensioLabs, and developer evangelist at Yahoo!. He has experience building and leading engineering teams and working with developers and partners to drive platform adoption. When Dustin isn’t working he enjoys flying, sailing, diving, golfing, and traveling around the world. Find out more at dustinwhittle.com or follow him @dustinwhittle.",
-            "photo": "dustin-whittle.jpg",
+        "hannes": {
+            "name": "Hannes",
+            "surname": "Van De Vreken",
+            "bio": "Software Engineer at madewithlove",
+            "about": "Developer at madewithlove, open source user and contributor, organiser of meetups in Belgium and also a marathon runner",
+            "photo": "hannes-van-de-vreken.jpg",
             "keynote": 0,
             "language": "en",
             "social": {
-                "github": "dustinwhittle",
-                "twitter": "dustinwhittle"
+                "github": "hannesvdvreken",
+                "twitter": "hannesvdvreken"
+            }
+        },
+        "ilukac": {
+            "name": "Ivo",
+            "surname": "Lukač",
+            "bio": "Co-founder of Netgen, eZ Publish CMS Specialist and eZ Publish Innovation Board member",
+            "about": "Co-founder of Netgen, Croatian based web company focusing on eZ Publish and Symfony as server side technologies. eZ Publish Innovation Board Member. Frequent speaker on various conferences. Organises eZ Publish Summer Camp (since 2012) and PHP Summer Camp (since 2014). Promotes open source and sharing",
+            "photo": "ilukac.jpg",
+            "language": "en",
+            "social": {
+                "twitter": "ilukac",
+                "linkedin": "ivolukac",
+                "rss": "http://feeds.feedburner.com/Netgenlabs"
             }
         },
         "akinmoroglu": {
