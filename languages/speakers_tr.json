@@ -114,6 +114,20 @@
                 "rss": "http://feeds.feedburner.com/Netgenlabs"
             }
         },
+        "fntlnz": {
+            "name": "Lorenzo",
+            "surname": "Fontana",
+            "bio": "Software Engineer at Facile.it",
+            "about": "Lorenzo Fontana is a Software Engineer @ Facile.it . He is passionate about PHP internals and DevOps practices. He's an active member of the Milano PHP User and Milano XP User Group.",
+            "photo": "lorenzo-fontana.jpg",
+            "language": "en",
+            "social": {
+                "github": "fntlnz",
+                "twitter": "fntlnz",
+                "linkedin": "lorenzofontana",
+                "rss": "http://engineering.facile.it/author/lorenzo-fontana/"
+            }
+        },
         "akinmoroglu": {
             "name": "Akın",
             "surname": "Moroğlu",
