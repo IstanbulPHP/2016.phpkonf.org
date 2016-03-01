@@ -279,20 +279,6 @@
                 "linkedin": "guvenatbakan"
             }
         },
-        "hkulekci": {
-            "name": "Haydar",
-            "surname": "Külekçi",
-            "bio": "Team Lead at Zingat.com",
-            "about": "",
-            "photo": "haydar-kulekci.jpg",
-            "keynote": 0,
-            "language": "tr",
-            "social": {
-                "github": "hkulekci",
-                "twitter": "kulekci",
-                "linkedin": "hkulekci"
-            }
-        },
         "hdogan": {
             "name": "Hidayet",
             "surname": "Doğan",
