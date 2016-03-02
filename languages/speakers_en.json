@@ -351,6 +351,20 @@
                 "rss": "http://irfandurmus.com/"
             }
         },
+        "lemi": {
+            "name": "Lemi Orhan",
+            "surname": "Ergin",
+            "bio": "Managing Partner at ACM",
+            "about": "Lemi Orhan Ergin is the managing partner and master software craftsman at ACM. He is a software craftsman, technical leader, development warrior, agile coach and trainer. Prior to his role, Lemi has worked at Sony Europe and eBay Turkey as developer, lead developer, team leader, technical coordinator, team manager, technical architect, solution architect, agile practice lead, principal developer and technical leader for 10 years. He has a lot of hands-on experience in agile methodologies (like Scrum, eXtreme Programming and Kanban), agile transformation, software craftsmanship, lean software development, building agile ALM processes, agile software engineering practices and building a sustainable agile development culture in organizations. He has been working in Scrum teams as Scrum Master, Scrum Team Member and Agile Coach since 2008. He is an active member of Agile Turkey community. He is the community lead of Agile Turkey community and the product owner of the biggest agile conference in Turkey and in the region: Agile Turkey Summit. He is also the founder of Software Craftsmanship Turkey community, i.e. the only Turkish community about Software Craftsmanship. He writes blog posts and shares his knowledge in many different sites. He shares the slides that he presented during the talks on http://www.slideshare.net/lemiorhan. His slides are already viewed more than 600k. He was in the team for translating Agile Manifesto into Turkish. He is the official Turkish translator for Software Craftsmanship Manifesto, SOA Manifesto and Disciplined Agile Manifesto. He meets 5-6 times a year with undergraduates regularly in the events of universities. He is a conference speaker. He already spoke in Google Developer Group (GDG) DevFest Developer Conferences, Dynamics Project Management Congress, Lean Kanban Istanbul, PhpIst14, Voxxed Day Istanbul 2015, Craftsummit15 and tens of seminars and meetups.",
+            "photo": "lemi-orhan-ergin.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "lemiorhan",
+                "twitter": "lemiorhan",
+                "linkedin": "lemiorhan"
+            }
+        },
         "mehmetince": {
             "name": "Mehmet",
             "surname": "İnce",
@@ -452,6 +466,20 @@
                 "twitter": "vigobronx",
                 "linkedin": "ugurozyilmazel",
                 "rss": "http://ugur.ozyilmazel.com/"
+            }
+        },
+        "ustun": {
+            "name": "Ustun",
+            "surname": "Ozgur",
+            "bio": "Founder at Ustun Ozgur Software",
+            "about": "",
+            "photo": "ustun-ozgur.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "ustun",
+                "twitter": "UstunOzgur",
+                "linkedin": "ustunozgur"
             }
         }
     }
