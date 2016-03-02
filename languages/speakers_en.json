@@ -15,6 +15,20 @@
                 "rss": "http://fabien.potencier.org/"
             }
         },
+        "pierre": {
+            "name": "Pierre",
+            "surname": "Joye",
+            "bio": "Software Engineer at Microsoft",
+            "about": "Pierre Joye is a PHP Core Developer and OSS contributor since more than a decade. He leads the PHP Windows support, main developer from LibGD and works on many OSS projects. After many years as Freelancer, Pierre works now with the Microsoft OpenSource technology Center in Redmond and in Germany.",
+            "photo": "pierre-joye.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "pierrejoye",
+                "twitter": "pierrejoye",
+                "linkedin": "pierrejoye"
+            }
+        },
         "ocramius": {
             "name": "Marco",
             "surname": "Pivetta",
