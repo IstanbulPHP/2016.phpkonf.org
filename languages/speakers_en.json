@@ -59,6 +59,20 @@
                 "rss": "https://philsturgeon.uk/"
             }
         },
+        "paul": {
+            "name": "Paul",
+            "surname": "Dragoonis",
+            "bio": "Software consultant at Dragoonis Digital",
+            "about": "Paul, a software consultant from Glasgow, Scotland, is a long-term php community member whom spends his time mentoring fellow PHP'ers, contributing to PHP internals, extensions and the php.net website. He is also the lead developer of PPI Framework, where he focuses on framework interoperability and multi-framework co-operation. Since PPI and PHP-FIG share a common goal, he focuses his time maintaining & participating in the PHP-FIG group.",
+            "photo": "paul-dragoonis.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "dragoonis",
+                "twitter": "dr4goonis",
+                "linkedin": "pauldragoonis"
+            }
+        },
         "ben": {
             "name": "Ben",
             "surname": "Marks",
