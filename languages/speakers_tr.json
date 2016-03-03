@@ -439,6 +439,20 @@
                 "rss": "http://nazlimboluk.com/"
             }
         },
+        "nesrin": {
+            "name": "Nesrin",
+            "surname": "Kalender",
+            "bio": "Front End Developer at Nomad Commerce",
+            "about": "She started his career as a Front-end Developer. She's currently studying at Kocaeli University and working as a Front-end Developer in Nomad Commerce.",
+            "photo": "nesrin-kalender.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "nesrinkalender",
+                "twitter": "nesrinkalender",
+                "linkedin": "nesrinkalender"
+            }
+        },
         "onur": {
             "name": "Onur",
             "surname": "Yılmaz",
