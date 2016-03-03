@@ -157,6 +157,21 @@
                 "rss": "http://engineering.facile.it/author/lorenzo-fontana/"
             }
         },
+        "apostylee": {
+            "name": "Abdullah",
+            "surname": "Uğraşkan",
+            "bio": "Sr. Software Developer at SiberUzay Teknolojileri",
+            "about": "",
+            "photo": "abdullah-ugraskan.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "apostylee",
+                "twitter": "apoStyLEE",
+                "linkedin": "apostylee",
+                "rss": "http://apostylee.com"                
+            }
+        },
         "akinmoroglu": {
             "name": "Akın",
             "surname": "Moroğlu",
