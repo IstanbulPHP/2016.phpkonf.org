@@ -326,6 +326,20 @@
                 "rss": "http://fka.calepin.co/"
             }
         },
+        "fatihustundag": {
+            "name": "Fatih",
+            "surname": "Üstündağ",
+            "bio": "Co-founder and CEO at Pozitim Teknoloji",
+            "about": "",
+            "photo": "fatih-ustundag.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "fustundag",
+                "twitter": "fustundag",
+                "linkedin": "fatihustundag"
+            }
+        },
         "gamze": {
             "name": "Gamze",
             "surname": "Ekinci",
