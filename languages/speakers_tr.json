@@ -15,6 +15,21 @@
                 "rss": "http://fabien.potencier.org/"
             }
         },
+        "coderabbi": {
+            "name": "Yitzchok",
+            "surname": "Willroth",
+            "bio": "Craftsman, Consultant & Coach",
+            "about": "Yitzchok Willroth is a Talmudic scholar and independent web application engineer, consultant and coach living in Lakewood, New Jersey. A start-up veteran, dev bootcamp instructor and frequent conference speaker, Yitzchok is the founder & organizer of the ShorePHP User Group, a co-organizer of the NYPHP User Group, and an active participant in the PHPMentoring Initiative. Passionate about clean code and robust application architecture, he is also a strong proponent of remote teams as a way for software organizations to thrive while affording developers a healthy work:life balance.",
+            "photo": "yitzchok-willroth.jpg",
+            "keynote": 1,
+            "language": "en",
+            "social": {
+                "github": "coderabbi",
+                "twitter": "coderabbi",
+                "linkedin": "yitzchokwillroth",
+                "rss": "https://coderabbi.github.io/"
+            }
+        },
         "pierre": {
             "name": "Pierre",
             "surname": "Joye",
