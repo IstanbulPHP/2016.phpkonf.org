@@ -2456,16 +2456,11 @@ address {
         display: none !important
     }
 
-    body {
-        padding-left: 20px;
-        padding-right: 20px
-    }
 
     .jumbotron--main {
         height: -webkit-calc(100vh - 20px);
         height: calc(100vh - 20px);
         max-height: 1055px;
-        margin-top: 20px;
         min-height: 640px
     }
 
