@@ -172,6 +172,20 @@
                 "rss": "http://engineering.facile.it/author/lorenzo-fontana/"
             }
         },
+        "gianarb": {
+            "name": "Gianluca",
+            "surname": "Arbezzano",
+            "bio": "Software Engineer at CurrencyFair",
+            "about": "Software Engineer at CurrencyFair a tech financial company. I am a PHP developer but I work on different stack layers, automation, scalability and HA. Open Source contributor for several projects, above all Zend Framework, and member of Doctrine ORM developers team. Strong believer in best developing practices and supporter of different User Groups. My fields of interest are various and constantly in evolution: in the last year, I worked a lot on scalable infrastructures, reaching the goal of building some of them on top of AWS, DigitalOcean and OpenStack.",
+            "photo": "gianluca-arbezzano.jpg",
+            "language": "en",
+            "social": {
+                "github": "gianarb",
+                "twitter": "gianarb",
+                "linkedin": "gianlucarbezzano",
+                "rss": "http://gianarb.it/"
+            }
+        },
         "apostylee": {
             "name": "Abdullah",
             "surname": "Uğraşkan",
