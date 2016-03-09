@@ -74,6 +74,21 @@
                 "rss": "https://philsturgeon.uk/"
             }
         },
+        "bruno": {
+            "name": "Bruno",
+            "surname": "Skvorc",
+            "bio": "Developer Evangelist at SitePoint/Diffbot",
+            "about": "Bruno is a coder from Croatia with Master’s Degrees in Computer Science and English Language and Literature. He’s the editor of SitePoint’s PHP channel and a developer evangelist for Diffbot.com. He avoids legacy code like the plague and when picking projects makes sure they’re as cutting edge as possible. He’s a treadmill desk enthusiast and active (board)gamer who sometimes blogs.",
+            "photo": "bruno-skvorc.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "swader",
+                "twitter": "bitfalls",
+                "linkedin": "swader",
+                "rss": "http://www.sitepoint.com/author/bskvorc"
+            }
+        },
         "paul": {
             "name": "Paul",
             "surname": "Dragoonis",
