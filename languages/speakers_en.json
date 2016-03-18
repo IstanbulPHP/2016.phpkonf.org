@@ -106,8 +106,8 @@
         "paul": {
             "name": "Paul",
             "surname": "Dragoonis",
-            "bio": "Software consultant at Dragoonis Digital",
-            "about": "Paul, a software consultant from Glasgow, Scotland, is a long-term php community member whom spends his time mentoring fellow PHP'ers, contributing to PHP internals, extensions and the php.net website. He is also the lead developer of PPI Framework, where he focuses on framework interoperability and multi-framework co-operation. Since PPI and PHP-FIG share a common goal, he focuses his time maintaining & participating in the PHP-FIG group.",
+            "bio": "Software Consultant & QA Engineer, Founder PPI Framework Engine, PHP-FIG member",
+            "about": "Paul, from Scotland, is passionate about software quality, architecture and continuous delivery.<br>He spends his time contributing to the PHP project & php.net website, PHP-FIG, many frameworks and open source projects.<br>He’s a member of the PHP-FIG group and lead developer of PPI Framework Engine (www.ppi.io), where he focuses on framework interoperability and multi-framework co-operation.<br>When not working on software Paul enjoys fishing, martial arts and sleeping.",
             "photo": "paul-dragoonis.jpg",
             "keynote": 0,
             "language": "en",
