@@ -285,6 +285,19 @@
                 "rss": "http://arda.pw/"
             }
         },
+        "abilgegunduz": {
+            "name": "Ayşe Bilge",
+            "surname": "Gündüz",
+            "bio": "Research Assistant at Yildiz Technical University",
+            "about": "İTÜ’de yüksek lisans öğrencisi ve YTÜ’de Araştırma Görevlisi.",
+            "photo": "ayse-bilge-gunduz.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "twitter": "abilgegunduz",
+                "linkedin": "aysebilgegunduz"
+            }
+        },
         "birgeelif": {
             "name": "Birge Elif",
             "surname": "Basık",
