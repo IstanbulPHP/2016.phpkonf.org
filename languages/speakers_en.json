@@ -582,20 +582,6 @@
                 "linkedin": "nesrinkalender"
             }
         },
-        "onur": {
-            "name": "Onur",
-            "surname": "Yılmaz",
-            "bio": "Senior Security Researcher at Netsparker",
-            "about": "",
-            "photo": "onur-yilmaz.jpg",
-            "keynote": 0,
-            "language": "tr",
-            "social": {
-                "github": "onuryilmazinfo",
-                "twitter": "onuryilmazinfo",
-                "linkedin": "onuryilmazinfo"
-            }
-        },
         "osman": {
             "name": "Osman",
             "surname": "Üngür",
