@@ -12,7 +12,12 @@
                 <div style="width: 600px;" ng-bind-html="speaker.about | html"></div>
                 <ul class="speaker-socials list-inline list-unstyled" style="margin-top: 15px;">
                     <li ng-repeat="(key, social) in speaker.social">
-                        <a target="_blank" href="https://{{ key }}.com/{{ social }}"><span class="fa fa-{{ key }}"></span></a>
+                        <span ng-if="key == 'rss'">
+                            <a target="_blank" href="{{ social }}"><span class="fa fa-{{ key }}"></span></a>
+                        </span>
+                        <span ng-if="key != 'rss'">
+                            <a target="_blank" href="https://{{ key }}.com/{{ social }}"><span class="fa fa-{{ key }}"></span></a>
+                        </span>
                     </li>
                 </ul>
             </div>
