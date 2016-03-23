@@ -30,6 +30,20 @@
                 "rss": "https://coderabbi.github.io/"
             }
         },
+        "ahmet": {
+            "name": "Ahmet Alp",
+            "surname": "Balkan",
+            "bio": "Open Source Engineer at Microsoft Azure",
+            "about": "Ahmet works for Microsoft Azure in Seattle. He is contributor to various open source projects, primarily as a Docker maintainer. He ported Docker client to Windows, released Microsoft’s first Docker image and wrote various tools in the Docker ecosystem used in the community. He uses Go programming language.",
+            "photo": "ahmet-alp-balkan.jpg",
+            "keynote": 1,
+            "language": "en",
+            "social": {
+                "github": "ahmetalpbalkan",
+                "twitter": "ahmetalpbalkan",
+                "rss": "https://ahmetalpbalkan.com/blog/"
+            }
+        },
         "pierre": {
             "name": "Pierre",
             "surname": "Joye",
