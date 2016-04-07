@@ -509,21 +509,6 @@
                 "rss": "http://www.mehmetince.net/"
             }
         },
-        "mehmetince": {
-            "name": "Mehmet",
-            "surname": "İnce",
-            "bio": "Senior Penetration Tester at Invictus Europe",
-            "about": "",
-            "photo": "mehmet-ince.jpg",
-            "keynote": 0,
-            "language": "tr",
-            "social": {
-                "github": "mmetince",
-                "twitter": "mdisec",
-                "linkedin": "mehmetdursunince",
-                "rss": "http://www.mehmetince.net/"
-            }
-        },
         "midori": {
             "name": "Midori",
             "surname": "Koçak",
@@ -552,6 +537,20 @@
                 "twitter": "muhittin",
                 "linkedin": "muhittin",
                 "rss": "http://www.muhittinozer.com/"
+            }
+        },
+        "mustafa": {
+            "name": "Mustafa",
+            "surname": "Uysal",
+            "bio": "Software Developer at Nefis Yemek Tarifleri",
+            "about": "",
+            "photo": "mustafa-uysal.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "mustafauysal",
+                "twitter": "m_uysl",
+                "linkedin": "uysalmustafa"
             }
         },
         "nazlim": {
