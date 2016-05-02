@@ -566,21 +566,6 @@
                 "linkedin": "uysalmustafa"
             }
         },
-        "nazlim": {
-            "name": "Nazlım",
-            "surname": "Bölük",
-            "bio": "Software Developer at KLE",
-            "about": "",
-            "photo": "nazlim-boluk.jpg",
-            "keynote": 0,
-            "language": "tr",
-            "social": {
-                "github": "nazlim",
-                "twitter": "nazlimboluk",
-                "linkedin": "nazlimboluk",
-                "rss": "http://nazlimboluk.com/"
-            }
-        },
         "nesrin": {
             "name": "Nesrin",
             "surname": "Kalender",
