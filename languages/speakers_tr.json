@@ -229,20 +229,6 @@
                 "rss": "http://gianarb.it/"
             }
         },
-        "farazdagi": {
-            "name": "Victor",
-            "surname": "Farazdagi",
-            "bio": "CTO / Chef Engineer at Square Labs",
-            "about": "MSCS Student at Georgia Institute of Technology (Atlanta, US), System Engineer @ Square Labs (Nuremberg, Germany), OS Contributor (ZF2, Phing, Phrozn), Rely on PHP for more than a decade now",
-            "photo": "farazdagi.jpg",
-            "language": "en",
-            "social": {
-                "github": "farazdagi",
-                "twitter": "farazdagi",
-                "linkedin": "farazdagi",
-                "rss": "http://farazdagi.com/"
-            }
-        },
         "apostylee": {
             "name": "Abdullah",
             "surname": "Uğraşkan",
@@ -297,6 +283,21 @@
                 "twitter": "ardadev",
                 "linkedin": "ardakilicdagi",
                 "rss": "http://arda.pw/"
+            }
+        },
+        "dayicim": {
+            "name": "Burak İbrahim",
+            "surname": "Gündüz",
+            "bio": "Software Architect at Markafoni",
+            "about": "",
+            "photo": "ibrahim-gunduz.jpg",
+            "keynote": 0,
+            "language": "tr",
+            "social": {
+                "github": "ibrahimgunduz34",
+                "twitter": "ibrahimgunduz34",
+                "linkedin": "ibrahimgunduz",
+                "rss": "http://ibrahimgunduz.com/"
             }
         },
         "birgeelif": {
