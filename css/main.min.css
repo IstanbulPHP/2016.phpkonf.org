@@ -748,6 +748,22 @@ address {
     margin-bottom: 48px
 }
 
+.gap-top {
+    margin-top: 24px
+}
+
+.gap-top-small {
+    margin-top: 12px
+}
+
+.gap-top-medium {
+    margin-top: 36px
+}
+
+.gap-top-large {
+    margin-top: 48px
+}
+
 .pad-vertical-xsmall {
     padding-top: 20px;
     padding-bottom: 20px

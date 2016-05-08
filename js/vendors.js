@@ -103,6 +103,19 @@
 	};
 
 	/*
+		Etkinlik programı kısmında ikinci güne geçiş bağlantısı
+	*/
+	var nextDayTabLink = document.getElementById('next-day-tab-link');
+	var nextDayTabLinkClickEvent = function(e){
+		e.preventDefault();
+		scrollTo(document.getElementById("program"), 30, 1000);
+		setTimeout(function() {
+  			$("#tabbed-nav").data('zozoTabs').next();
+		}, 900);
+	};
+	nextDayTabLink.addEventListener('click', nextDayTabLinkClickEvent);
+
+	/*
 	 * Sticky Header
 	 * 1024px ekran genişliğinin altında devre dışı bırakılmıştır!
 	 */
