@@ -87,6 +87,13 @@
       });
     };
 
+    $scope.clickToOpenCoc = function () {
+      var speakerDialog = ngDialog.open({
+        template  : 'coc.html',
+        showClose : false
+      });
+    };
+
   }]);
 
   app.controller('SpeakersController', ['$http', '$scope', '$translate', 'ngDialog', '$rootScope', function ($http, $scope, $translate, ngDialog, $rootScope) {

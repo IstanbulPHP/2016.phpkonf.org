@@ -43,7 +43,7 @@
                 <a class="menu__item" data-target-id="program" href="#">{{ 'PROGRAM' | translate }}</a>
                 <a class="menu__item" data-target-id="tickets" href="#">{{ 'TICKETS' | translate }}</a>
                 <a class="menu__item" data-target-id="sponsors" href="#">SPONSORS</a>
-                <a class="menu__item" data-target-id="coc" href="#">CoC</a>
+                <a class="menu__item" href="javascript:void(0)" ng-click="clickToOpenCoc()">CoC</a>
             </nav>
         </div>
     </header>
@@ -61,7 +61,7 @@
                 <a class="menu__item" data-target-id="program" href="#">{{ 'PROGRAM' | translate }}</a>
                 <a class="menu__item" data-target-id="tickets" href="#">{{ 'TICKETS' | translate }}</a>
                 <a class="menu__item" data-target-id="sponsors" href="#">SPONSORS</a>
-                <a class="menu__item" data-target-id="coc" href="#">CoC</a>
+                <a class="menu__item" href="javascript:void(0)" ng-click="clickToOpenCoc()">CoC</a>
             </nav>
         </div>
     </header>
@@ -706,37 +706,8 @@
             <a target="_blank" href="http://apiplug.com/"><img class="gap-bottom" data-src="img/sponsors/apiplug.png" alt="Api Plug"></a>
         </div>
     </div>
-    <div id="coc" class="pad-vertical-large container">
-        <h3>{{ 'CODE_OF_CONDUCT' | translate }}</h3>
-        <p translate="{{ 'CODE_OF_CONDUCT_1' }}"></p>
-        <div class="row pad-top-small">
-            <div class="col-md-6">
-                <ul class="questions">
-                    <li class="questions__item">
-                        <span class="questions__item__no">N<sup>o</sup>1</span>
-                        <h6 class="questions__item__title">{{ 'NO_1_TITLE' | translate }}</h6>
-                        <p translate="{{ 'NO_1_DESC' }}"></p>
-                    </li>
-                    <li class="questions__item">
-                        <span class="questions__item__no">N<sup>o</sup>2</span>
-                        <h6 class="questions__item__title">{{ 'NO_2_TITLE' | translate }}</h6>
-                        <p translate="{{ 'NO_2_DESC' }}"></p>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-6">
-                <ul class="questions">
-                    <li class="questions__item">
-                        <span class="questions__item__no">N<sup>o</sup>3</span>
-                        <h6 class="questions__item__title">{{ 'NO_3_TITLE' | translate }}</h6>
-                        <p translate="{{ 'NO_3_DESC' }}"></p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
 
-    <div class="pad-vertical-large bg-snow">
+<!--     <div class="pad-vertical-large bg-snow">
         <div class="container text-center">
             <h3>{{ 'TEAM' | translate }}</h3>
             <hr class="hyphen hyphen--crew">
@@ -819,7 +790,7 @@
             </div>
             
         </div>
-    </div>
+    </div> -->
 
     <footer class="footer">
         <a class="logo logo--footer" href="http://atolye15.com" target="_blank" title="Atölye15"></a>
