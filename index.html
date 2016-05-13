@@ -42,6 +42,8 @@
                 <a class="menu__item" data-target-id="speakers" href="#">{{ 'SPEAKERS' | translate }}</a>
                 <a class="menu__item" data-target-id="program" href="#">{{ 'PROGRAM' | translate }}</a>
                 <a class="menu__item" data-target-id="tickets" href="#">{{ 'TICKETS' | translate }}</a>
+                <a class="menu__item" data-target-id="sponsors" href="#">SPONSORS</a>
+                <a class="menu__item" data-target-id="coc" href="#">CoC</a>
             </nav>
         </div>
     </header>
@@ -58,6 +60,8 @@
                 <a class="menu__item" data-target-id="speakers" href="#">{{ 'SPEAKERS' | translate }}</a>
                 <a class="menu__item" data-target-id="program" href="#">{{ 'PROGRAM' | translate }}</a>
                 <a class="menu__item" data-target-id="tickets" href="#">{{ 'TICKETS' | translate }}</a>
+                <a class="menu__item" data-target-id="sponsors" href="#">SPONSORS</a>
+                <a class="menu__item" data-target-id="coc" href="#">CoC</a>
             </nav>
         </div>
     </header>
@@ -116,10 +120,12 @@
 
     <div id="speakers" class="container text-center pad-vertical-large">
         <h3 class="clear-gap-top">{{ 'SPEAKERS' | translate }}</h3>
+
         <hr class="hyphen">
+
         <div class="honeycomb-wrapper">
 
-            <div class="col-sm-3" ng-repeat="(id, speaker) in speakers | toArray">
+            <div class="col-sm-3" ng-repeat="(id, speaker) in speakers | toArray | limitTo:limit">
                 <div class="speaker">
                     <div class="photo-wrapper rounded">
                         <a href="javascript:void(0)" ng-click="clickToOpen(speaker)">
@@ -132,9 +138,9 @@
                 </div>
             </div>
 
-            <!-- <div style="clear: both;">
-                <a style="margin-top: 30px;" class="button button--primary" href="#" target="_blank">Show more!</a>
-            </div> -->
+            <div style="clear: both;">
+                <a style="margin-top: 30px;" class="button button--primary" ng-click="limit = 44">Show more!</a>
+            </div>
 
         </div>
 
@@ -665,7 +671,7 @@
            </div>
        </section>
 
-    <div class="pad-vertical-large bg-snow">
+    <div id="sponsors" class="pad-vertical-large bg-snow">
         <div class="container text-center">
             <h3>{{ 'SPONSORS' | translate }}</h3>
             <hr class="hyphen">
@@ -700,7 +706,7 @@
             <a target="_blank" href="http://apiplug.com/"><img class="gap-bottom" data-src="img/sponsors/apiplug.png" alt="Api Plug"></a>
         </div>
     </div>
-    <div class="pad-vertical-large container">
+    <div id="coc" class="pad-vertical-large container">
         <h3>{{ 'CODE_OF_CONDUCT' | translate }}</h3>
         <p translate="{{ 'CODE_OF_CONDUCT_1' }}"></p>
         <div class="row pad-top-small">
@@ -820,6 +826,7 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-route.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.6.1/angular-translate.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate-loader-static-files/2.6.1/angular-translate-loader-static-files.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.4.0/js/ngDialog.min.js"></script>

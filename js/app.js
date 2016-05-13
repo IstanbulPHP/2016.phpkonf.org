@@ -10,7 +10,8 @@
   var app = angular.module('PHPKonfApp', [
     'pascalprecht.translate',
     'ngDialog',
-    'ngSanitize'
+    'ngSanitize',
+    'ngRoute'
   ])
 
   app.config(function($translateProvider) {
@@ -21,6 +22,18 @@
 
     $translateProvider.preferredLanguage('en');
   });
+
+  app.config(['$routeProvider',
+    function($routeProvider) {
+      $routeProvider.
+        when('/speakers/:id', {
+          templateUrl: 'speaker.html',
+          controller: 'SpeakersController'
+        }).
+        otherwise({
+          redirectTo: '/'
+        });
+    }]);
 
   app.filter('html', ['$sce', function ($sce) {
     return function (text) {
@@ -49,12 +62,12 @@
   app.controller('MainController', ['$http', '$scope', '$translate', 'ngDialog', '$rootScope', function ($http, $scope, $translate, ngDialog, $rootScope) {
 
     changeSpeakersLang($translate.preferredLanguage());
+    $scope.limit = 8;
 
     function changeSpeakersLang(lang) {
       $http.get("languages/speakers_" + lang + ".json")
         .success (function (data) {
           $rootScope.speakers = data.speakers;
-          console.log($rootScope.speakers);
       });
     }
 
@@ -74,6 +87,9 @@
       });
     };
 
+  }]);
+
+  app.controller('SpeakersController', ['$http', '$scope', '$translate', 'ngDialog', '$rootScope', function ($http, $scope, $translate, ngDialog, $rootScope) {
   }]);
 
   $("#tabbed-nav").zozoTabs({
