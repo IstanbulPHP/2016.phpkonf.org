@@ -241,19 +241,19 @@
                 "rss": "http://apostylee.com"                
             }
         },
-        "akinmoroglu": {
-            "name": "Akın",
-            "surname": "Moroğlu",
-            "bio": "Digital Marketing Manager at Bahcesehir University",
-            "about": "",
-            "photo": "akin-moroglu.jpg",
-            "keynote": 0,
-            "language": "tr",
-            "social": {
-                "twitter": "akinmoroglu",
-                "linkedin": "akinmoroglu"
-            }
-        },
+        // "akinmoroglu": {
+        //     "name": "Akın",
+        //     "surname": "Moroğlu",
+        //     "bio": "Digital Marketing Manager at Bahcesehir University",
+        //     "about": "",
+        //     "photo": "akin-moroglu.jpg",
+        //     "keynote": 0,
+        //     "language": "tr",
+        //     "social": {
+        //         "twitter": "akinmoroglu",
+        //         "linkedin": "akinmoroglu"
+        //     }
+        // },
         "alpcan": {
             "name": "Alpcan",
             "surname": "Aydın",
