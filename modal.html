@@ -15,7 +15,10 @@
                         <span ng-if="key == 'rss'">
                             <a target="_blank" href="{{ social }}"><span class="fa fa-{{ key }}"></span></a>
                         </span>
-                        <span ng-if="key != 'rss'">
+                        <span ng-if="key == 'linkedin'">
+                            <a target="_blank" href="https://{{ key }}.com/in/{{ social }}"><span class="fa fa-{{ key }}"></span></a>
+                        </span>
+                        <span ng-if="key != 'rss' && key != 'linkedin'">
                             <a target="_blank" href="https://{{ key }}.com/{{ social }}"><span class="fa fa-{{ key }}"></span></a>
                         </span>
                     </li>

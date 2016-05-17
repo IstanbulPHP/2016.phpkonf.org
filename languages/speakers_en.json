@@ -89,6 +89,18 @@
                 "rss": "http://www.sitepoint.com/author/bskvorc"
             }
         },
+        "vstancescu": {
+            "name": "Valentin",
+            "surname": "Stancescu",
+            "bio": "Software Developer PayU",
+            "about": "Valentin is a technology and computer science graduated with over 7 years experience in different companies. He is professional in web based software development and architecture, with very good knowledge in building and implementing payment systems.<br><br>As web developer he was mainly involved in:<ul><li>publishing business (building a CMS platform  for the biggest online publisher in Romania with over 1 million unique visitors daily and also contributing with  different modules for the first Romanian SVOD platform).</li><li>payments business (building key new features for payment platform like Token or One Click Payments  and contributing to refactoring and rearchitecture legacy code in platform in order to improve code quality and platform sustainability).</li></ul>He enjoys working in Agile SCRUM methodology, also acting as a buddy and mentor for new comers into the team. He also has experience and enjoys working with multinational teams from different countries.",
+            "photo": "valentin-stancescu.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "linkedin": "valentinstancescu"
+            }
+        },
         "jaytaph": {
             "name": "Joshua",
             "surname": "Thijssen",
