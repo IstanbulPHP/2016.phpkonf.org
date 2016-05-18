@@ -15,21 +15,6 @@
                 "rss": "http://fabien.potencier.org/"
             }
         },
-        "coderabbi": {
-            "name": "Yitzchok",
-            "surname": "Willroth",
-            "bio": "Craftsman, Consultant & Coach",
-            "about": "Yitzchok Willroth is a Talmudic scholar and independent web application engineer, consultant and coach living in Lakewood, New Jersey. A start-up veteran, dev bootcamp instructor and frequent conference speaker, Yitzchok is the founder & organizer of the ShorePHP User Group, a co-organizer of the NYPHP User Group, and an active participant in the PHPMentoring Initiative. Passionate about clean code and robust application architecture, he is also a strong proponent of remote teams as a way for software organizations to thrive while affording developers a healthy work:life balance.",
-            "photo": "yitzchok-willroth.jpg",
-            "keynote": 1,
-            "language": "en",
-            "social": {
-                "github": "coderabbi",
-                "twitter": "coderabbi",
-                "linkedin": "yitzchokwillroth",
-                "rss": "https://coderabbi.github.io/"
-            }
-        },
         "ahmet": {
             "name": "Ahmet Alp",
             "surname": "Balkan",
@@ -99,20 +84,6 @@
             "language": "en",
             "social": {
                 "linkedin": "valentinstancescu"
-            }
-        },
-        "jaytaph": {
-            "name": "Joshua",
-            "surname": "Thijssen",
-            "bio": "Founder at TechAnalyze",
-            "about": "Joshua Thijssen is an all-round consultant and trainer. His daily work consists of maintaining code bases, working on different projects and helping other to achieve higher standards in both coding and thinking. He is author of the PHP|Architect book \"Mastering the SPL library\" and the Symfony Rainbow Series, founder of the Dutch Web Alliance and regular speaker at national and international conferences.",
-            "photo": "joshua-thijssen.jpg",
-            "keynote": 0,
-            "language": "en",
-            "social": {
-                "github": "jaytaph",
-                "twitter": "jaytaph",
-                "linkedin": "joshuathijssen"
             }
         },
         "paul": {
